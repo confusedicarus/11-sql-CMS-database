@@ -39,8 +39,7 @@ function init() {
         "Add Employee",
         "Add Department",
         "Add Role",
-        "Update Employee Role",
-        "Remove Employee",
+        "Update Employee",
         "EXIT",
       ],
     })
@@ -58,13 +57,13 @@ function init() {
         case "Add Employee":
           addEmployees();
           break;
-        case "Add a Department":
+        case "Add Department":
           addDepartment();
           break;
         case "Add Role":
           addRole();
           break;
-        case "Update Employee Role":
+        case "Update Employee":
           updateRole();
           break;
         case "EXIT":
@@ -209,7 +208,7 @@ function addRole() {
       {
         type: "input",
         name: "role",
-        message: "What would would you like to add?",
+        message: "What role would you like to add?",
         allowNull: false,
       },
       {
